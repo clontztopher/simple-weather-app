@@ -1,0 +1,77 @@
+* {
+  font-family: 'Montserrat', san-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.content-box {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 3px 3px 6px #444;
+  color: white;
+  padding: 10px;
+  width: 50%;
+  max-width: 500px;
+  border-radius: 6px;
+  background: darkslateblue;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(darkslateblue), to(steelblue));
+  background: -webkit-linear-gradient(top, darkslateblue, steelblue);
+  background: -moz-linear-gradient(top, darkslateblue, steelblue);
+  background: -ms-linear-gradient(top, darkslateblue, steelblue);
+  background: -o-linear-gradient(top, darkslateblue, steelblue);
+}
+
+.content-box__title {
+  width: 100%;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.content-box__title, .content-box__city {
+  margin: 0;
+  text-align: center;
+}
+
+.content-box__city {
+  width: 85%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 3em;
+  border-top: 3px solid lightblue;
+  border-bottom: 3px solid lightblue;
+}
+
+.info-box__weather {
+  flex: 2 1 25%;
+}
+
+.info-box__time,
+.info-box__temp {
+  flex: 1 2 10%;
+}
+
+.info-box__time,
+.info-box__weather,
+.info-box__temp {
+  text-align: center;
+  padding: 1em;
+}
+
+.info-box__temp:hover {
+  color: darkblue;
+  cursor: pointer;
+  background: floralwhite;
+}
+
+
+
